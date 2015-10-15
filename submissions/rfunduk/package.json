@@ -1,0 +1,32 @@
+{
+  "name": "rfunduk-flux-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "NODE_ENV=development node dev-server.js",
+    "build": "rm -f dist/* && NODE_ENV=production webpack"
+  },
+  "author": "Ryan Funduk <ryan@funduk.ca> (http://ryanfunduk.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-react-transform": "^1.1.1",
+    "classnames": "^2.1.5",
+    "css-loader": "^0.19.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "html-webpack-plugin": "^1.6.2",
+    "lodash": "^3.10.1",
+    "node-libs-browser": "^0.5.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^3.1.0",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.1.1",
+    "redux": "^3.0.2",
+    "style-loader": "^0.12.4",
+    "superagent": "^1.4.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
